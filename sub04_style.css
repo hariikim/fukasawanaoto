@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a:link{color: white;}
+a:visited{color: white;}
+a:hover{color: #FF7C7C;}
+a:active{color: white;}
+
+.wrap{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+}
+
+.box0{
+    width: 1100px;
+    height: 100vh;
+    position: relative;
+    margin: 0 auto;
+    background-position: center;
+    background-color: black;
+}
+
+.box1{
+    width: 100%;
+    height: 337px;
+    background-color: black;
+}
+
+.sb1_1{
+    width: 232px;
+    height: 29px;
+    position: absolute;
+    top: 25px;
+    z-index: 20;
+}
+
+.sb1_2 nav ul{
+    width: 706px;
+    height: 83px;
+    right: 0;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sb1_2{
+    width: 1100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sb1_2 .nav{
+    width: 230px;
+    display: flex;
+    align-items: center;
+}
+
+.sb1_2 .nav{
+    width: 713px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.sb1_3{
+    width: 1100px;
+    height: 81px;
+    /* background-color: pink; */
+    
+}
+
+.title{
+    width: 1100px;
+    height: 81px;
+    /* background-color: orange; */
+    position: absolute;
+    top: 256px;
+}
+
+.title_1{
+    width: 1100px;
+    height: 52px;
+}
+
+.title_2{
+    font-style: Noto Sans KR;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 0em;
+    top: 52px;
+    position: absolute;
+    /* background-color: blue; */
+}
+
+.box2{
+    width: 1100px;
+    height: 4002px;
+    position: absolute;
+    top: 553px;
+    background-color: black;
+}
+
+.box3{
+    width: 1100px;
+    height: 75px;
+    /* background-color: tomato; */
+    position: absolute;
+    top: 5304px;
+    background-color: black;
+
+}
+
+.sb3_1{
+    width: 191px;
+    height: 26px;
+    position: absolute;
+    top: 1005px;
+}

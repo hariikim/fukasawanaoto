@@ -1,0 +1,560 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a:link{color: white;}
+a:visited{color: white;}
+a:hover{color: #FF7C7C;}
+a:active{color: white;}
+
+.wrap{
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+}
+
+.box0{
+    width: 1100px;
+    height: 100vh;
+    position: relative;
+    margin: 0 auto;
+    background-position: center;
+}
+
+.box1{
+    width: 100%;
+    height: 1192px;
+    display: flex;
+    background-color: black;
+}
+
+.sb1_1{
+    width: 232px;
+    height: 29px;
+    position: absolute;
+    top: 25px;
+    z-index: 20;
+}
+
+.sb1_2 nav ul{
+    width: 706px;
+    height: 83px;
+    right: 0;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sb1_2{
+    width: 1100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sb1_2 .nav{
+    width: 230px;
+    display: flex;
+    align-items: center;
+}
+
+.sb1_2 .nav{
+    width: 713px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.sb1_3{
+    width: 1100px;
+    height: 897px;
+    /* background-color: pink; */
+    position: absolute;
+    top: 235px;
+}
+
+.pictit1{
+    height: 52px;
+    /* background-color: red; */
+    position: relative;
+
+}
+
+.pic1{
+    width: 540px;
+    height: 692px;
+    position: absolute;
+    top: 52px;
+}
+
+.pic1_1{
+    width: 540px;
+    height: 692px;
+}
+
+.pic1_2{
+    height: 32px;
+    font-style: Noto Sans KR;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    bottom: 0;
+    position: absolute;
+}
+
+.pic2{
+    width: 540px;
+    height: 692px;
+    position: absolute;
+    /* background-color: yellow; */
+    bottom: 0;
+    right: 0;
+}
+
+.pic2_1{
+    width: 540px;
+    height: 692px;
+}
+
+.pic2_2{
+    height: 32px;
+    font-style: Noto Sans KR;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.box2{
+    width: 1100px;
+    height: 1255px;
+    background-color: #1C1C1C;
+}
+
+.sb2_1{
+    width: 1100px;
+    height: 1135px;
+    /* background-color: pink; */
+    position: absolute;
+    top: 1252px;
+}
+
+.pictit2{
+    height: 52px;
+    /* background-color: red; */
+    position: absolute;
+    right: 0;
+}
+
+.pic3{
+    width: 1100px;
+    height: 576px;
+    position: absolute;
+    top: 52px;
+    /* background-color: orange; */
+    display: flex;
+}
+
+.pic3_1{
+    width: 725px;
+    height: 576px;
+    right: 0;
+    position: absolute;
+}
+
+.pic3_2{
+    height: 32px;
+    font-style: Noto Sans KR;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    bottom: 0;
+    position: absolute;
+}
+
+.pic4{
+    width: 981px;
+    height: 437px;
+    position: absolute;
+    bottom: 0;
+    /* background-color: yellow; */
+}
+
+.pic4_1{
+    width: 981px;
+    height: 385px;
+    right: 0;
+    position: absolute;
+}
+
+.pic4_2{
+    height: 32px;
+    font-style: Noto Sans KR;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.box3{
+    width: 1100px;
+    height: 1302px;
+    background-color: #000000;
+}
+
+.sb3_1{
+    width: 1100px;
+    height: 1135px;
+    /* background-color: pink; */
+    position: absolute;
+    top: 2507px;
+}
+
+.pictit3{
+    height: 52px;
+    /* background-color: red; */
+    position: relative;
+}
+
+.pic5{
+    width: 801px;
+    height: 540px;
+    position: absolute;
+    /* background-color: orange;    */
+}
+
+.pic5_1{
+    width: 540px;
+    height: 540px;
+    top: 0;
+    position: absolute;
+}
+
+.pic5_2{
+    height: 32px;
+    font-style: Noto Sans KR;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.pic6{
+    width: 920px;
+    height: 540px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /* background-color: yellow;  */
+}
+
+.pic6_1{
+    width: 540px;
+    height: 540px;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+
+.pic6_2{
+    height: 32px;
+    font-style: Noto Sans KR;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.box4{
+    width: 1100px;
+    height: 1255px;
+    background-color: #1C1C1C;
+}
+
+.sb4_1{
+    width: 1100px;
+    height: 1135px;
+    /* background-color: pink; */
+    position: absolute;
+    top: 3809px;
+}
+
+.pictit4{
+    height: 52px;
+    /* background-color: red; */
+    position: absolute;
+    right: 0;
+}
+
+.pic7{
+    width: 1055px;
+    height: 545px;
+    position: absolute;
+    /* background-color: orange; */
+    right: 0;
+    top: 77px;
+}
+
+.pic7_1{
+    width: 1055px;
+    height: 493px;
+    top: 0;
+    position: absolute;
+}
+
+.pic7_2{
+    height: 32px;
+    font-style: Noto Sans KR;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.pic8{
+    width: 980px;
+    height: 408px;
+    position: absolute;
+    /* background-color: yellow; */
+    bottom: 0;
+    left: 0;
+}
+
+.pic8_1{
+    width: 980px;
+    height: 356px;
+    top: 0;
+    position: absolute;
+}
+
+.pic8_2{
+    height: 32px;
+    font-style: Noto Sans KR;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    bottom: 0;
+    position: absolute;
+}
+
+.box5{
+    width: 1100px;
+    height: 733px;
+    background-color: #000000;
+}
+
+.sb5_1{
+    width: 1100px;
+    height: 613px;
+    /* background-color: pink; */
+    position: absolute;
+    top: 5031px;
+}
+
+.pictit5{
+    height: 52px;
+    /* background-color: red; */
+    position: absolute;
+}
+
+.pic9{
+    width: 1100px;
+    height: 536px;
+    position: absolute;
+    /* background-color: yellow; */
+    top: 77px;
+}
+
+.pic9_1{
+    width: 1100px;
+    height: 484px;
+    top: 0;
+    position: absolute;
+}
+
+.pic9_2{
+    height: 32px;
+    font-style: Noto Sans KR;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.box6{
+    width: 1100px;
+    height: 864px;
+    background-color: #1C1C1C;
+}
+
+.sb6_1{
+    width: 1100px;
+    height: 744px;
+    /* background-color: pink; */
+    position: absolute;
+    top: 5764px;
+}
+
+.pictit6{
+    height: 52px;
+    /* background-color: red; */
+    position: absolute;
+    right: 0;
+}
+
+.pic10{
+    width: 540px;
+    height: 602px;
+    position: absolute;
+    /* background-color: orange; */
+    bottom: 0;
+}
+
+.pic10_1{
+    width: 540px;
+    height: 550px;
+    top: 0;
+    position: absolute;
+}
+
+.pic10_2{
+    height: 32px;
+    font-style: Noto Sans KR;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    bottom: 0;
+    position: absolute;
+}
+
+.pic11{
+    width: 540px;
+    height: 602px;
+    position: absolute;
+    /* background-color: yellow; */
+    top: 77px;
+    right: 0;
+}
+
+.pic11_1{
+    width: 540px;
+    height: 550px;
+    top: 0;
+    position: absolute;
+}
+
+.pic11_2{
+    height: 32px;
+    font-style: Noto Sans KR;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.box7{
+    width: 1100px;
+    height: 966px;
+    background-color: #000000;
+}
+
+.sb7_1{
+    width: 1100px;
+    height: 744px;
+    /* background-color: pink; */
+    position: absolute;
+    top: 6628px;
+}
+
+.pictit7{
+    height: 52px;
+    /* background-color: red; */
+    position: absolute;
+    margin: 0 auto;
+}
+
+.pic12{
+    width: 1100px;
+    height: 577px;
+    position: absolute;
+    /* background-color: yellow; */
+    top: 77px;
+}
+
+.pic12_1{
+    width: 1100px;
+    height: 525px;
+    top: 0;
+    position: absolute;
+}
+
+.pic12_2{
+    height: 32px;
+    font-style: Noto Sans KR;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    bottom: 0;
+    position: absolute;
+}
+
+.box8{
+    width: 1100px;
+    height: 75px;
+    /* background-color: tomato; */
+    position: absolute;
+    top: 7454px;
+
+}
+
+.sb8_1{
+    width: 191px;
+    height: 26px;
+    position: absolute;
+    top: 1005px;
+}
+
+
+
+
